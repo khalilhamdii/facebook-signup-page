@@ -8,11 +8,12 @@ body {
   vertical-align: baseline;
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
   background-color: #f0f2f5;
+  box-sizing: border-box;
 }
 main {
   width: 100%;
   height: 50%;
-  margin: 100px 0 100px 0;
+  margin: 10% 0 10% 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21,9 +22,16 @@ main {
 }
 .logo-container {
   text-align: left;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 500;
+  width: 30%;
+  transform: scale(1.1);
 }
+
+.logo-container img {
+  margin-bottom: 20px;
+}
+
 form {
   background-color: white;
   height: 350px;
@@ -69,4 +77,25 @@ button {
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+
+.forgotten-pass {
+  font-size: 14px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.forgotten-pass a {
+  text-decoration: none;
+  color: #166fe5;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small-size {
+  font-size {
+    12px
+  }
 }
